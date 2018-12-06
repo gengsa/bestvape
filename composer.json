@@ -4,6 +4,12 @@
     "description": "best vape",
     "keywords": [
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gengsa/gaiaphp"
+        }
+    ],
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
