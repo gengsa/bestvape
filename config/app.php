@@ -164,17 +164,18 @@ return [
 
         /*
          * Package Service Providers...
+         * Base Package Service Providers have inherited from Gaia.
+         * Write your own or overwrite as your wish.
          */
 
         /*
          * Application Service Providers...
+         * Base Application Service Providers have inherited from Gaia.
+         * Write your own or overwrite as your wish.
+         * Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
          */
         App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
     ],
 
     /*

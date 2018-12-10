@@ -15,13 +15,13 @@ class Controller extends BaseController
     {
         $cart = [
             'items'=> [
-                'goods1',
-                'goods2',
-                'goods3',
-                'goods4',
-                'goods5',
-                'goods6',
-                'goods7',
+                'goods1 in best-vape',
+                'goods2 in best-vape',
+                'goods3 in best-vape',
+                'goods4 in best-vape',
+                'goods5 in best-vape',
+                'goods6 in best-vape',
+                'goods7 in best-vape',
             ]
 
         ];

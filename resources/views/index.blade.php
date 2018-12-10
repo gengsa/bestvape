@@ -13,6 +13,7 @@
         </script>
 
         <div id='app'>
+            this is best vape view file
             <cart></cart>
         </div>
     </body>
