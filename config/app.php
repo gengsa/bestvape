@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Shanghai', // timezone is very important, it affect password hash
 
     /*
     |--------------------------------------------------------------------------
@@ -172,7 +172,7 @@ return [
          * Application Service Providers...
          * Base Application Service Providers have inherited from Gaia.
          * Write your own or overwrite as your wish.
-         * Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
+         * Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the GaiaServiceProvider.
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
