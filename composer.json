@@ -4,11 +4,8 @@
     "description": "best vape",
     "repositories": [
         {
-            "type": "path",
-            "url": "../gaiaphp",
-            "options": {
-                "symlink": true
-            }
+            "type": "vcs",
+            "url": "https://github.com/gengsa/gaia.git"
         }
     ],
     "require": {
@@ -16,7 +13,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "gengsa/gaiaphp": "dev-test"
+        "gengsa/gaia": "dev-test"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
@@ -40,8 +37,6 @@
             "App\\": "app/"
         },
         "classmap": [
-            "database/seeds",
-            "database/factories"
         ]
     },
     "autoload-dev": {

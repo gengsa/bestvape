@@ -14,7 +14,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        var_dump('bv boot');
     }
 
     /**
@@ -24,7 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        var_dump('bv register');
         //
     }
 }
