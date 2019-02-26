@@ -5,7 +5,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/gengsa/gaia.git"
+            "url": "https://github.com/heavengifts/gaia.git"
         }
     ],
     "require": {
