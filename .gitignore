@@ -1,8 +1,13 @@
+.DS_Store
+
 composer.lock
+package-lock.json
 
 public/mix-manifest.json
-public/css/app.css
-public/js/app.js
+public/css
+public/js
+public/fonts
+public/images
 
 /node_modules
 /public/hot
@@ -23,3 +28,5 @@ yarn-error.log
 .buildpath
 .project
 .settings
+
+_ide_helper.php

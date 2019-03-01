@@ -11,5 +11,22 @@ const mix = require('laravel-mix');
  |
  */
 
+mix.webpackConfig({
+  resolve: {
+    modules: [
+      path.resolve(__dirname, 'resources/js'),
+      path.resolve(__dirname, 'node_modules/gaia/resources/js'),
+      path.resolve(__dirname, 'resources/static'),
+      path.resolve(__dirname, 'node_modules/gaia/resources/static'),
+      'node_modules',
+    ]
+  }
+});
+
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css', {
+     includePaths: [
+       path.resolve(__dirname, 'resources/sass'),
+       path.resolve(__dirname, 'node_modules/gaia/resources/sass'),
+     ],
+   });
